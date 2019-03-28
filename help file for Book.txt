@@ -1,0 +1,9 @@
+Note: 
+1.	Include the jar files required for junit.
+2.	The executable file is : BookUI.java
+-------
+Create files in the following sequence :
+1.	BookSchema
+2.	BookUI
+3.	BookDataValidator  & BookCollectionHelper
+4.	BookException & bbokCollectionHelperTest
