@@ -1,0 +1,58 @@
+OUTPUT:
+
+
+1:Add Employee Details 
+2:Compute Income Tax amount and display the details 
+3:Exit
+
+Enter UR Choice: 
+1
+How many new Employees ? 
+1
+Enter EmpId:
+106
+Enter Employee name:
+Sudhakaran
+Enter Pan card No: 
+GDYPS14856
+Enter Employee Salary:
+800000
+Only numbers (and paise if any) is Allowed
+1:Add Employee Details 
+2:Compute Income Tax amount and display the details 
+3:Exit
+
+Enter UR Choice: 
+1
+How many new Employees ? 
+1
+Enter EmpId:
+107
+Enter Employee name:
+Vinothkumar
+Enter Pan card No: 
+SDFRE23456
+Enter Employee Salary:
+20000
+1:Add Employee Details 
+2:Compute Income Tax amount and display the details 
+3:Exit
+
+Enter UR Choice: 
+2
+Emp [EmpId=101, EmpName=Suresh, EmpPan=AFTGFH12345, EmpSalary=33350.0]
+Emp [EmpId=102, EmpName=Mahesh, EmpPan=POKUH28843, EmpSalary=150200.0]
+Emp [EmpId=103, EmpName=Deepak, EmpPan=ROPET56723, EmpSalary=830000.0]
+Emp [EmpId=104, EmpName=Pradeep, EmpPan=QWVGT98561, EmpSalary=1000350.0]
+Emp [EmpId=105, EmpName=Ankita, EmpPan=JUOLP761632, EmpSalary=1950000.0]
+Emp [EmpId=107, EmpName=Vinothkumar, EmpPan=SDFRE23456, EmpSalary=20000.0]
+Upto 2,50,000  Tax=NILL
+2,50,001 to 5,00,000  Tax=10%
+5,00,001 to 10,00,000  Tax=20%
+Above 10,00,000  Tax=30%
+1:Add Employee Details 
+2:Compute Income Tax amount and display the details 
+3:Exit
+
+Enter UR Choice: 
+3
