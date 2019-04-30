@@ -2,6 +2,7 @@ package com.coachingclassenquiry.testcases;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -32,8 +33,13 @@ public class Tests
 		  register.Typeemail();
 		  register.Typemobilenum();
 		  register.TypeD6();
+		  register.Typecity();
+		  register.Typelearnmode();
 		  register.Typeenquiry();
 		  register.ClickOnSubmit();
+		  
+		  Alert alert = driver.switchTo().alert();
+		  alert.accept();
 		  
 		  System.out.println(driver.getTitle());
 	  }
